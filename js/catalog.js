@@ -48,8 +48,7 @@ function addSelectedItemToCart() {
 
 // TODO: Update the cart count in the header nav with the number of items in the Cart
 function updateCounter() {
-   document.getElementById('itemCount').innerHTML = Cart.length;
-   console.log(Cart.length);
+  document.getElementById('itemCount').textContent = cart.items.length;
   
   
 }
