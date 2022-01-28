@@ -4,13 +4,14 @@
 const Cart = function(items) {
   // this.items is an array of CartItem instances.
   this.items = items;
+  console.log(this.items);
 };
 
 Cart.prototype.addItem = function(product, quantity) {
   // DONE: Fill in this instance method to create a new CartItem and add it to this.items
   this.product = product;
   this.quantity = quantity;
-this.items.push(CartItem);
+this.items.push(1);
 
 
 };
